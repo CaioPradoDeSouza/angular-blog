@@ -1,0 +1,32 @@
+.container__big-card{
+    border: solid white 2px;
+    width:50%;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.big-card__photo{
+
+}
+
+.big-card__title{
+    font-size: 40px;
+}
+
+.big-card__description{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    a{
+        text-decoration: none;
+    }
+}
