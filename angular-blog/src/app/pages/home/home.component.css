@@ -1,0 +1,9 @@
+.articles{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.articles__others{
+    width: 50%;
+}

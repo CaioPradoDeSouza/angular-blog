@@ -1,0 +1,38 @@
+.container__small-card{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid gray;
+    display: flex;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.small-card__photo > img{
+    width: 250px;
+    height: 100%;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.small-card__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.small-card__title > h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+
+.small-card__description > a{
+    text-decoration: none;
+    color: rgba(218, 165, 32, 0.589);
+}
+
+
+

@@ -1,0 +1,30 @@
+.container__menu-bar{
+    width: 100%;
+    display: flex;
+}
+
+.container__menu-bar > ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    list-style: none;
+}
+
+.container__menu-bar > li{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
+}
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: gray;
+    border-bottom: 1px solid rgba(218, 165, 32, 0.589);
+}
+
+a:hover{
+    color: #fff;
+    border-bottom: 1px solid rgba(218, 165, 32, 0.993);
+}
