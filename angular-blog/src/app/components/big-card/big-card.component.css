@@ -35,8 +35,10 @@
     flex-direction: column;
     align-items: center;
 
-    a{
-        text-decoration: none;
-        color: rgba(218, 165, 32, 0.589);
-    }
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgba(218, 165, 32, 0.589);
 }
