@@ -12,6 +12,11 @@
     height: 100%;
     margin-right: 15px;
     margin-top: 5px;
+    border-radius: 3px;
+}
+
+.small-card__photo > img:hover{
+    border: 2px solid #fff;
 }
 
 .small-card__description{

@@ -1,18 +1,19 @@
 <div class="container__big-card">
     <div class="big-card__photo">
-        <img src="./assets/Big-Chief-405.webp" alt="" height="300px" width="450px">
+        <img src="{{ photoCover }}" alt="" height="300px" width="450px">
     </div>
 
     <div class="big-card__title">
-        <h1>Big Chief</h1>
+        <h1>{{ cardTitle }}</h1>
     </div>
 
     <div class="big-card__description">
-        <span>Justin Shearer aka "Big Chief" corre nas ruas com seu carro
-            "Crow" um pontiac GTO .
+        <span>
+            {{ cardDescription}}
         </span>
         <br>
-        <a href="https://www.instagram.com/bigchiefokc/" target="_blank">📲 Instagran do piloto</a>
+        <a href="{{ instaPiloto }}"  target="_blank">📲 Instagran do piloto</a>
     </div>
 
 </div>
+
